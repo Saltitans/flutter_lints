@@ -9,6 +9,7 @@ analyzer:
     - "test/.test_coverage.dart"
     - "bin/cache/**"
     - "lib/generated_plugin_registrant.dart"
+    - "lib/firebase_options.dart"
 
   language:
     strict-casts: true
@@ -45,3 +46,4 @@ linter:
     public_member_api_docs: false
     unnecessary_final: false
     use_build_context_synchronously: false
+    discarded_futures: false
